@@ -6,6 +6,8 @@ This project performs exploratory data analysis on the Airbnb NYC 2019 dataset t
 
 **Dataset:** [Airbnb NYC 2019](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) (AB_NYC_2019.csv)
 
+**GitHub Repository:** [https://github.com/mechtime/ai-programming-foundations-project](https://github.com/mechtime/ai-programming-foundations-project)
+
 ## How to Run the Project
 
 ### Install Dependencies
@@ -51,3 +53,12 @@ Neural networks would require: (1) normalization of all numeric features to 0-1 
 **What parts of this project could be automated using agentic AI?**
 
 Agentic AI could automate: (1) data profiling to detect types, missing values, and outliers, (2) cleaning strategy selection based on data characteristics, (3) feature importance evaluation and selection, (4) automatic visualization generation based on data types, (5) initial interpretation drafting for statistical results, and (6) pipeline monitoring for data drift in production.
+
+## Git Workflow
+
+This project uses a branch-based Git workflow:
+
+- **main**: Production-ready code, stable releases
+- **development**: Active development and feature integration
+
+All features were developed on the `development` branch with incremental commits, then merged into `main` for final submission. Commit messages describe the purpose of each change to maintain clear project history.
